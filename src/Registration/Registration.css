@@ -88,7 +88,7 @@
         rgba(43, 38, 38, 0.6),
         rgba(82, 2, 2, 0.6)
       ),
-      url("../../../final-project/public/image/Morya.jpg");
+      url("/public/image/Morya.jpg");
     height: 100vh;
     width: 100%;
     background-size: cover;
