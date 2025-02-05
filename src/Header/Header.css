@@ -1,0 +1,187 @@
+.navbar .navigation-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar .navigation-menu li {
+   margin:0px 20px;
+  }
+  .navbar .AppBar{
+    padding: 2px 0;
+    height: 70px;
+    }
+  .navbar .navlink {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    text-decoration: dashed;
+    color: rgb(242, 242, 236);
+    font-size: 1.5rem;
+  }
+  .navbar .navlink:hover {
+    background: linear-gradient(
+      rgba(86, 75, 5, 0.3),
+      rgba(197, 7, 7, 0.2),
+      rgba(0, 0, 0, 0.5)
+    );
+   
+    border-radius: 2px;
+    
+   
+  }
+  
+  .navkink{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .navlink.active{
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(
+      rgba(86, 75, 5, 0.3),
+      rgba(197, 7, 7, 0.2),
+      rgba(0, 0, 0, 0.5)
+    );
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  .mobile-navigation {
+    list-style: none;
+    background-color: rgb(106, 107, 2);
+    padding-top: 5px;
+    padding-bottom: 18px;
+  }
+  .mobile-navigation li {
+    margin-top: 20px;
+  }
+  .mobile-navigation .navlink {
+    color: #000;
+    font-size: 1.3rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .logoimg img{
+    height: 80px;
+    /* width: 100px; */
+    margin-top: 9px;
+    background-color: transparent;
+    
+  }
+  .phlogo img{
+  
+      height: 60px;
+      width: 150px;
+      margin-top: 10px;
+      background-color: transparent;
+      
+    
+  }
+  .navbar .toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .login_button{
+  background: rgb(224, 14, 7);
+  color: gold;
+  padding: 10px 20px;
+  border-radius: 7px;
+
+  }
+  .navbar .login_button:hover{
+    background: black;
+  }
+  .navbar .profile{
+  display: flex;
+  justify-content: space-between;
+  }
+  .mobile-navigation .mobile_pic{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0px;
+  }
+  .mobile-navigation .mobile_name{
+  font-size: 1.2rem;
+  font-weight: bold;
+  }
+  .navbar .profile_pic{
+  height: 45px;
+  width: 45px;
+  position: relative;
+  bottom: 0px;
+  
+  margin-top: 19px;
+  margin-right: 25px;
+  }
+  .navbar .profile_name{
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  color: #000;
+  }
+  @media (width<950px){
+    .navbar .navigation-menu li {
+      margin:  0px 13px;
+    }
+    .navbar .navlink {
+      font-size: 1.14rem;
+    }
+    .navbar .dropdown {
+      font-size: 1.14rem;
+    }
+  }
+  @media (width<900px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 300px;
+    }
+  }
+  @media (width<850px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 250px;
+    }
+  }@media (width<750px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 190px;
+    }
+  }
+  @media (width<650px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 140px;
+    }
+  }
+  @media (width<550px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 100px;
+    }
+  }
+  @media (width<450px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 60px;
+    }
+  }
+   @media (width<=400px) {
+    .logoimg img{
+      height: 40px;
+      width: 100px;
+  
+    }
+   }
+   @media (width<350px) {
+    .navbar .hamburger{
+      position: relative;
+      left: 50px;
+    }
+  }
+  @media (width<320px) {
+    .navbar .hamburger{
+      position: relative;
+     left: 30px;
+    }
+  }

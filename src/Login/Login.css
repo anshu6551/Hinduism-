@@ -1,0 +1,117 @@
+  .login-container {
+    background: linear-gradient(to left, rgba(23, 0, 0, 0.6), rgba(78, 63, 4, 0.6)),
+      url("https://img.freepik.com/premium-photo/decorated-hanging-diya-diwali-indian-background-concept_1279574-6959.jpg?w=740");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .log .login-form {
+    height: 400px;
+    width: 400px;
+    /* backdrop-filter: blur(30px); */
+    background: linear-gradient(to right, rgb(110, 2, 2), #c29305);
+    box-shadow: 8px 8px 8px 8px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .log .error-message {
+    color: rgb(241, 230, 17);
+  }
+  
+  .log .login-heading {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 1.7rem;
+    /* font-style: italic; */
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .log .button {
+    margin-top: 10px;
+  }
+  
+  .log .button:hover {
+    background: rgb(9, 8, 0);
+  }
+  
+  .log .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .log .text-field {
+    width: 100%;
+    
+    background: white;
+    margin: 8px;
+  }
+  
+  .log .text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(249, 246, 63);
+    font-size: 1.9rem ;
+    
+  }
+  
+  .log .down-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 45px;
+  }
+  
+  @media (max-width: 768px) {
+    .log .login-form {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .log .login-heading {
+      font-size: 1.3rem;
+      letter-spacing: 4px;
+    }
+  
+    .log .button {
+      padding: 8px 40px;
+      width: 100%;
+    }
+  
+    .log .text-field {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-container {
+      height: auto;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .log .login-form {
+      width: 85%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .log .login-heading {
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+    }
+  
+    .log .text-field {
+      width: 100%;
+    }
+  
+    .log .button {
+      padding: 8px 60px;
+    }
+  }

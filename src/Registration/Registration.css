@@ -1,0 +1,215 @@
+/* .reg .registration-container {
+    background: linear-gradient(to left,rgba(43, 38, 38, 0.6),rgba(82, 2, 2, 0.6)),url("../../../final-project/public/image/Morya.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .reg .reg-form {
+    height: 450px;
+    width: 500px;
+    /* backdrop-filter: blur(30px); */
+    /* background: linear-gradient(to right, red, yellow); 
+    background: linear-gradient(to right, darkred, #FFC107);
+     background-color: rgb(204, 193, 30); 
+    border-radius: 6px;
+    position: absolute;
+    margin-right:  580px;
+    padding: 4px ;
+  }
+  
+  /* .reg .submit_button{
+    background: rgb(232, 176, 35);
+  margin-top: 17px;
+  padding: 10px 100px;
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+  } */
+  /* .reg .form-group{
+    margin-bottom: 10px;
+    }
+  .reg .submit_button:hover{
+      background: rgb(11, 8, 0);
+  }
+  .reg .heading{
+      margin-bottom: 18px;
+      margin-top: 20px;
+      font-size: 1.5rem;
+      font-style: italic;
+      letter-spacing: 5px;
+      font-weight: bold;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  .reg .error-message{
+      color: red;
+    }
+  .reg .text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+      border-color: black;
+    
+    }
+  .reg .input_image{
+      width: 280Px;
+    }
+  .reg .input_image .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+      border-color: black;
+    }
+  .reg .text-field{
+      width: 280px;
+    }
+    @media (width<=320px) {
+    .reg .reg-form {
+      height: 520px;
+      width: 280px;
+    }
+    .reg .heading {
+      font-size: 1.25rem;
+      letter-spacing: 2px;
+    }
+    .reg .text-field {
+      margin-bottom: 10px;
+      width: 240px;
+    }
+    .reg .input_image{
+      width: 240px;
+    }
+    .reg .submit_button {
+      padding: 8px 80px;
+    }
+  } */ 
+  .reg .registration-container {
+    background: linear-gradient(
+        to left,
+        rgba(43, 38, 38, 0.6),
+        rgba(82, 2, 2, 0.6)
+      ),
+      url("../../../final-project/public/image/Morya.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reg .reg-form {
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(to right, darkred, #ffc107);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 8px 8px 8px 8px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .reg .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .reg .heading {
+    margin-bottom: 18px;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    /* font-style: italic; */
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .reg .error-message {
+    color: red;
+  }
+  
+  .reg .text-field .MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline {
+    border-color: black;
+  }
+  
+  .reg .input_image {
+    width: 100%;
+  }
+  
+  .reg .input_image .MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline {
+    border-color: black;
+  }
+  
+  .reg .text-field {
+    width: 100%;
+    background: white;
+  }
+  
+  .reg .submit_button {
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .reg .submit_button:hover {
+    background-color: darkred;
+  }
+  
+  @media (max-width: 768px) {
+    .reg .reg-form {
+      padding: 15px;
+    }
+  
+    .reg .heading {
+      font-size: 1.6rem;
+      letter-spacing: 3px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reg .reg-form {
+      padding: 10px;
+    }
+  
+    .reg .heading {
+      font-size: 1.4rem;
+      letter-spacing: 2px;
+    }
+  
+    .reg .text-field {
+      margin-bottom: 8px;
+    }
+  
+    .reg .submit_button {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .reg .reg-form {
+      height: auto;
+      width: 90%;
+    }
+  
+    .reg .heading {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+  
+    .reg .text-field {
+      margin-bottom: 5px;
+      width: 100%;
+    }
+  
+    .reg .submit_button {
+      padding: 8px 40px;
+    }
+  }
